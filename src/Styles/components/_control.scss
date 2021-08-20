@@ -1,0 +1,51 @@
+.player-bottom {
+    background-color: #23232D;
+    border: 1px solid #32323D;
+    
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0;
+    height: 100px;
+    z-index: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.player-controls {
+    //background-color: red;
+    color: honeydew;
+    width: 15%;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 8px;
+}
+
+.player-controls .btn-p {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    i {
+        color: white;
+    }
+    &:focus {
+        outline: none;
+    }
+    &:hover i {
+        color: lighten($color: $grey-light, $amount: 20);
+    }
+}
+
+.player-tracks {
+    // background-color: white;
+    width: 55%;
+    margin: 20px;
+}
+
+.player-options {
+    // background-color: red;
+    width: 20%;
+    margin: 20px;
+}

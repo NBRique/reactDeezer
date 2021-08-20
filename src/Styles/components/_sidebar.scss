@@ -1,0 +1,43 @@
+.reproductor_main-content {
+    display: flex;
+    background-color: #121216;
+    //background-color: hotpink;
+}
+
+.sidebar-navbar-img {
+    width: 100px;
+    display: block;
+    margin: 10px;
+    margin-right: 10px;
+    padding: auto;
+}
+
+.reproductor_sidebar {
+    background-color: $primary;
+    height: 80vh;
+    padding: 11px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    z-index: 100px;
+}
+
+.sidebar-item-links {
+    // display: block;
+    font-family: Quicksand, sans-serif;
+    font-size: 22px;
+    color: white;
+    padding: 30px;
+    ul {
+        list-style: none;
+        font-size: 16px;
+    }
+    a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+    h1 {
+        font-weight: bold;
+    }
+}
